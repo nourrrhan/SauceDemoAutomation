@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010 - ErrorUser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1bc17a54-1b48-48c0-a575-46148e88f21e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7cf7d24-515f-440c-b7f2-cc751c7b261b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d23d918-c56a-473b-91b9-ac423a8a2572</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'error_user'</defaultValue>
+      <description></description>
+      <id>f7cf7d24-515f-440c-b7f2-cc751c7b261b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>4d23d918-c56a-473b-91b9-ac423a8a2572</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

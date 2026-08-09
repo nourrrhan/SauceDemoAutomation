@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009 - PerformanceGlitchUser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d99938f-7861-48c0-b0c2-109fabb9028b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f3d93eb-f11c-488f-a528-aa421ae4dfb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35cc72f1-7c97-4224-ac17-aba9f105c2dc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'performance_glitch_user'</defaultValue>
+      <description></description>
+      <id>7f3d93eb-f11c-488f-a528-aa421ae4dfb1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>35cc72f1-7c97-4224-ac17-aba9f105c2dc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

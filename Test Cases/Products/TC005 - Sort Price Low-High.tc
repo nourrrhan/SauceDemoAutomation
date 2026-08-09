@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005 - Sort Price Low-High</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06c0b73c-f397-4ee6-83a1-5e11ff707b47</testCaseGuid>
+</TestCaseEntity>

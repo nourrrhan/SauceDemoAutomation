@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011 - VisualUser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7bc2ab20-8cb9-4e3f-822b-6e1dd0e18fd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebf97237-6d87-4b20-99c2-fb3df50e18d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96088fc2-6fad-463d-8891-c71f23331a4a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'visual_user'</defaultValue>
+      <description></description>
+      <id>ebf97237-6d87-4b20-99c2-fb3df50e18d6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>96088fc2-6fad-463d-8891-c71f23331a4a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

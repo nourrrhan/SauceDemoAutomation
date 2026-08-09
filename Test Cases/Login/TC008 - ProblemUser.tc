@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008 - ProblemUser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d6ac330-b9e7-4345-ac0d-4ed1cc69cb7c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f6e009f-2b43-4386-b5e7-0bc7b4a9d67d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f34917bf-4b15-4d37-b3d8-9f0294df3bf6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'problem_user'</defaultValue>
+      <description></description>
+      <id>6f6e009f-2b43-4386-b5e7-0bc7b4a9d67d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>f34917bf-4b15-4d37-b3d8-9f0294df3bf6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
