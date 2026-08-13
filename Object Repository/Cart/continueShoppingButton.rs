@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>cartBadge</name>
+   <name>continueShoppingButton</name>
    <tag></tag>
-   <elementGuidId>032925cc-1b60-48a5-b857-ca19602de591</elementGuidId>
+   <elementGuidId>9068112b-2df9-4c20-b58e-f6ce236630a9</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#continue-shopping</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.shopping_cart_badge</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

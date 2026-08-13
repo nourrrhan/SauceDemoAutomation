@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - RemoveItem</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>baa1dc28-78a3-49dd-9b00-a1ec0e401378</testCaseGuid>
+</TestCaseEntity>

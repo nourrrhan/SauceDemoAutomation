@@ -20,5 +20,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Products/lblProduct
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Products/sortDropdown'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Products/cartIcon'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Common/cartIcon'))
 

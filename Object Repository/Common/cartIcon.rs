@@ -6,12 +6,12 @@
    <elementGuidId>60878a9d-1053-418a-b1f8-7392ef4afbef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.shopping_cart_link</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='shopping_cart_container']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.shopping_cart_link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

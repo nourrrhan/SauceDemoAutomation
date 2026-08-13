@@ -17,12 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Products/TC007 - AddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/TC001 - LoginAsStandard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Products/removeFromCart'))
+WebUI.click(findTestObject('Object Repository/Products/addToCart'))
 
-// Verify cart badge is no longer present after removing the item
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Common/cartBadge'), 10)
+WebUI.click(findTestObject('Object Repository/Common/cartIcon'))
+
+WebUI.click(findTestObject('Object Repository/Cart/checkoutButton'))
+
+// Verify we're on the first checkout page
+WebUI.verifyEqual(WebUI.getUrl(), 'https://www.saucedemo.com/checkout-step-one.html')
 
 WebUI.closeBrowser()
 

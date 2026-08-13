@@ -17,12 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Products/TC007 - AddToCart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/TC001 - LoginAsStandard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Products/removeFromCart'))
+WebUI.click(findTestObject('Object Repository/Products/addToCart'))
 
-// Verify cart badge is no longer present after removing the item
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Common/cartBadge'), 10)
+WebUI.click(findTestObject('Object Repository/Common/cartIcon'))
+
+// Verify the product name matches the expected value in the cart page
+WebUI.verifyElementText(findTestObject('Object Repository/Products/productName'), 'Sauce Labs Backpack')
+
+// Verify the product price matches the expected value in the cart page
+WebUI.verifyElementText(findTestObject('Object Repository/Products/productPrice'), '$29.99')
 
 WebUI.closeBrowser()
 

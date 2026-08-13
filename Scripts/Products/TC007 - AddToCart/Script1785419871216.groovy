@@ -22,5 +22,5 @@ WebUI.callTestCase(findTestCase('Common/TC001 - LoginAsStandard'), [:], FailureH
 WebUI.click(findTestObject('Object Repository/Products/addToCart'))
 
 // Verify cart badge shows 1 item after adding a product
-WebUI.verifyElementText(findTestObject('Object Repository/Cart/cartBadge'), '1')
+WebUI.verifyElementText(findTestObject('Object Repository/Common/cartBadge'), '1')
 

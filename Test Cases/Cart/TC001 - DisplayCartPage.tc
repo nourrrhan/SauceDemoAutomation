@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - DisplayCartPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1eab45cc-7d33-4681-8703-8a59eb8a39b2</testCaseGuid>
+</TestCaseEntity>
