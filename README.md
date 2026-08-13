@@ -21,5 +21,26 @@ This framework is built progressively, sprint by sprint, to cover the majority o
   - `Cart/` — Cart content 
   - `Checkout/` — For payment scenarios
 - **Object Repository/** — Page element locators, organized by module
-- **Profiles/** — Execution environment configurations # Execution environment configurations
+- **Profiles/** — Execution environment configurations
+
   
+## ✅ Completed Modules
+
+### Login Module (7 Test Cases)
+- Valid login
+- Invalid password / username
+- Empty username / password / both
+- Locked out user
+
+### Products Module (8 Test Cases)
+- Product page load verification
+- Product count verification
+- Sort by name (A-Z, Z-A)
+- Sort by price (low-high, high-low)
+- Add to cart / Remove from cart
+
+### Cart Module (4 Test Cases)
+- Cart page display verification (product name & price)
+- Remove item from cart page
+- Continue shopping navigation
+- Proceed to checkout navigation
