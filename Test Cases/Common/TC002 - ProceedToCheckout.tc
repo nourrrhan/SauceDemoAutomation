@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - ProceedToCheckout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f7b2ed2-0899-4012-8ae9-aa16b5e87bfe</testCaseGuid>
+</TestCaseEntity>

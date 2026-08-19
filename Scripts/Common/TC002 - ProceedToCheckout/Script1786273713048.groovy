@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('') // open the browser
+WebUI.callTestCase(findTestCase('Common/TC001 - LoginAsStandard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow() // maximize the browser window
+WebUI.click(findTestObject('Object Repository/Products/addToCart'))
 
-WebUI.navigateToUrl('https://www.saucedemo.com/') // navigate
+WebUI.click(findTestObject('Object Repository/Common/cartIcon'))
 
-WebUI.setText(findTestObject('Object Repository/Login/txtUsername'), username) // enter username
+WebUI.click(findTestObject('Object Repository/Cart/checkoutButton'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/txtPassword'), password) // enter password
 
-WebUI.click(findTestObject('Object Repository/Login/loginButton')) // click on login
-
-WebUI.waitForPageLoad(10) // wait untill the page is loaded
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Products/lblProducts')) // check that elemt is displayed
-
-WebUI.closeBrowser()
 
