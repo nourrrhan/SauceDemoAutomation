@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007 - CancelFromShippingInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>028dc63a-041d-4f52-a77e-049eda7852fe</testCaseGuid>
+</TestCaseEntity>

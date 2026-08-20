@@ -14,7 +14,7 @@
          <value>a.shopping_cart_link</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9ba3a68e-7ba0-4063-a55b-f1aeb2a16f97</webElementGuid>
+      <webElementGuid>46c96a8a-d0e5-4757-a052-d3b1267bfbd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>shopping_cart_link</value>
-      <webElementGuid>339442f5-2e71-4c90-b3dd-bf4e7b958bbc</webElementGuid>
+      <webElementGuid>fc1940b4-c946-44fc-8482-2bcf52980c1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>shopping-cart-link</value>
-      <webElementGuid>a316e33e-dc53-49fd-97a8-b6a740ba310d</webElementGuid>
+      <webElementGuid>019caf93-1e68-48a9-8bf2-213eb047404f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +47,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;shopping_cart_container&quot;)/a[@class=&quot;shopping_cart_link&quot;]</value>
-      <webElementGuid>3199440f-3915-4997-bea6-2c77334524c9</webElementGuid>
+      <webElementGuid>d82116c1-5c08-4a83-a8d0-c45e9e14e068</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopping_cart_container']/a</value>
-      <webElementGuid>2419297a-c8fe-4a55-9b25-f43abb325489</webElementGuid>
+      <webElementGuid>1c524b45-c080-4f46-ae30-41299f949daf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>0f7f4678-0715-470f-a6f3-39c84c87ae7d</webElementGuid>
+      <webElementGuid>fe3c9a65-18c6-42f4-83a7-6b0e0e436bf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

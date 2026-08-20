@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - NavigateToOrderSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4160563-3def-42b8-86c1-e1d552f0de19</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a832766e-6c56-4674-aaf1-f2e7ea5a202d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec5d4833-83f1-4967-92ba-f06d9f20d481</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d59c752-4418-4c7a-8f4b-c819fa4c7480</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'firstname'</defaultValue>
+      <description></description>
+      <id>a832766e-6c56-4674-aaf1-f2e7ea5a202d</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'lastname'</defaultValue>
+      <description></description>
+      <id>ec5d4833-83f1-4967-92ba-f06d9f20d481</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>4d59c752-4418-4c7a-8f4b-c819fa4c7480</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+</TestCaseEntity>

@@ -28,5 +28,5 @@ WebUI.click(findTestObject('Object Repository/Cart/checkoutButton'))
 // Verify we're on the first checkout page
 WebUI.verifyEqual(WebUI.getUrl(), 'https://www.saucedemo.com/checkout-step-one.html')
 
-WebUI.closeBrowser()
+
 

@@ -38,13 +38,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/TC002 - ProceedToCheckout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/Page_Swag Labs/input_Checkout Your Information_first-name'), firstName)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/Page_Swag Labs/input_Checkout Your Information_last-name'), lastName)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/Page_Swag Labs/input_Checkout Your Information_postal-code'), zipCode)
+WebUI.setText(findTestObject('Object Repository/Checkout/inputFirstName'), firstName)
 
-WebUI.click(findTestObject('Object Repository/Checkout/Page_Swag Labs/input_Cancel_continue'))
+WebUI.setText(findTestObject('Object Repository/Checkout/inputLastName'), lastName)
+
+WebUI.setText(findTestObject('Object Repository/Checkout/inputZipCode'), zipCode)
+
+
+WebUI.click(findTestObject('Object Repository/Checkout/continueButton'))
+
 
 // Verify error message is visible
 WebUI.verifyElementVisible(findTestObject('Object Repository/Checkout/errorMessage'))

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008 - CancelFromOrderSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9085a8e-9873-4df4-a260-b0885e9b5d60</testCaseGuid>
+</TestCaseEntity>

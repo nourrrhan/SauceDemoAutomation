@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005 - VerifyOrderSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fad6834e-bb28-4132-892b-6bb10a577637</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5cfb7697-a68f-4261-90ed-2da31600fab8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04a408d4-bddf-4e1f-a271-804c801f60ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>487508d1-a993-4640-9832-00ace228dc08</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'firstname'</defaultValue>
+      <description></description>
+      <id>5cfb7697-a68f-4261-90ed-2da31600fab8</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'lastname'</defaultValue>
+      <description></description>
+      <id>04a408d4-bddf-4e1f-a271-804c801f60ae</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>487508d1-a993-4640-9832-00ace228dc08</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+</TestCaseEntity>

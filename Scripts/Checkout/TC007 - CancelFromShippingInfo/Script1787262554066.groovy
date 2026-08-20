@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/TC002 - ProceedToCheckout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Cart/TC004 - ProceedToCheckout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+// Click Cancel button
+WebUI.click(findTestObject('Object Repository/Checkout/cancelCheckoutButton'))
 
-WebUI.setText(findTestObject('Object Repository/Checkout/inputFirstName'), firstName)
-
-WebUI.setText(findTestObject('Object Repository/Checkout/inputLastName'), lastName)
-
-WebUI.setText(findTestObject('Object Repository/Checkout/inputZipCode'), zipCode)
-
-
-WebUI.click(findTestObject('Object Repository/Checkout/continueButton'))
-
-
-// Verify we're on checkout step two page
-WebUI.verifyEqual(WebUI.getUrl(), 'https://www.saucedemo.com/checkout-step-two.html')
-
+// Verify we're back on the cart page
+WebUI.verifyEqual(WebUI.getUrl(), 'https://www.saucedemo.com/cart.html')
 
 WebUI.closeBrowser()
+
