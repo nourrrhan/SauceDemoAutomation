@@ -51,3 +51,9 @@ This framework is built progressively, sprint by sprint, to cover the majority o
 - Order summary verification (product match, price calculation)
 - Order completion confirmation
 - Cancel checkout (from shipping info page and from order summary page)
+
+### End to End Module (4 Test Cases)
+- Complete happy path purchase (single item)
+- Complete purchase with multiple items
+- Purchase with cart modification (add then remove an item)
+- Purchase after sorting products
