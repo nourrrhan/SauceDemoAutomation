@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - CompletePurchaseOneItem</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bba10f8b-35f0-42a9-b84f-c378ed154894</testCaseGuid>
+</TestCaseEntity>

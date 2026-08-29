@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - PurchaseWithCartModification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db5c2c30-8665-4047-9473-fdf2e2e5cc8a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2a239da-4abc-4349-9ab2-f331876f61c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>582b9c23-9d4b-449b-bb02-0a96824be3de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9b8a547-d183-400f-a3d6-1d5a13cce40f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'firstname'</defaultValue>
+      <description></description>
+      <id>e2a239da-4abc-4349-9ab2-f331876f61c2</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'lastname'</defaultValue>
+      <description></description>
+      <id>582b9c23-9d4b-449b-bb02-0a96824be3de</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>b9b8a547-d183-400f-a3d6-1d5a13cce40f</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+</TestCaseEntity>

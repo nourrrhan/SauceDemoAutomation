@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - CompletePurchaseMultipleItems</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f961b673-360f-4681-a770-e5cb7bc3e9cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a9bd059-a5df-4bef-9848-7a065172f408</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15259cfe-ae90-456e-8c64-7556fd75fd1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df519d6f-f098-4a66-ba90-4fccf4d1eb58</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'firstname'</defaultValue>
+      <description></description>
+      <id>1a9bd059-a5df-4bef-9848-7a065172f408</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'lastname'</defaultValue>
+      <description></description>
+      <id>15259cfe-ae90-456e-8c64-7556fd75fd1f</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>df519d6f-f098-4a66-ba90-4fccf4d1eb58</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+</TestCaseEntity>
