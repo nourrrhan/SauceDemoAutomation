@@ -20,9 +20,9 @@ This framework is built progressively, sprint by sprint, to cover the majority o
   - `Common/` — Reusable test cases (e.g., login helper)
   - `Cart/` — Cart content, item removal, and navigation (Complete)
   - `Checkout/` — Shipping info, order summary, and cancel flows (Complete)
+  - `End to End/` — Full purchase journeys across all modules (Complete)
 - **Object Repository/** — Page element locators, organized by module
 - **Profiles/** — Execution environment configurations
-- `End to End/` — Full purchase journeys across all modules (Complete)
 
   
 ## ✅ Completed Modules
