@@ -18,8 +18,8 @@ This framework is built progressively, sprint by sprint, to cover the majority o
   - `Login/` — Login flow test cases
   - `Products/` — Product listing, sorting, and cart interaction
   - `Common/` — Reusable test cases (e.g., login helper)
-  - `Cart/` — Cart content 
-  - `Checkout/` — For payment scenarios
+  - `Cart/` — Cart content, item removal, and navigation (Complete)
+  - `Checkout/` — Shipping info, order summary, and cancel flows (Complete)
 - **Object Repository/** — Page element locators, organized by module
 - **Profiles/** — Execution environment configurations
 
@@ -44,3 +44,10 @@ This framework is built progressively, sprint by sprint, to cover the majority o
 - Remove item from cart page
 - Continue shopping navigation
 - Proceed to checkout navigation
+
+### Checkout Module (8 Test Cases)
+- Fill shipping information (valid data)
+- Empty field validation (first name, last name, zip code)
+- Order summary verification (product match, price calculation)
+- Order completion confirmation
+- Cancel checkout (from shipping info page and from order summary page)
